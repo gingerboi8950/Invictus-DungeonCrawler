@@ -53,6 +53,20 @@ public class Player
 
 
         Console.WriteLine($"Player found: {selectedFood.Name}, Health: {selectedFood.Health}");
+
+        // apply health to the player based on the selected food
+        ApplyHealth(selectedFood.Health);
+    }
+
+    private void ApplyHealth(int healthToAdd)
+    {
+        // update player's health
+        health += healthToAdd;
+
+        // player's health can't exceed 100
+        health = Math.Clamp(health, 0, 100);
+
+        Console.WriteLine($"Player's health updated to {health}");
     }
 }
 
