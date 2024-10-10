@@ -1,5 +1,5 @@
 ﻿using FoodItem;
-using Weapon;
+// using Weapon;
 class Program
 {
     static void Main(string[] args)
@@ -13,5 +13,9 @@ class Program
         {
             Console.WriteLine($"Error: {ex.Message}");
         }
+        
+        PlayerWeapon playerWeapon = new PlayerWeapon();
+        playerWeapon.EnterStore();
     }
+
 }
