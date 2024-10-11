@@ -12,7 +12,7 @@ public class AttackBoost2 : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             GameObject player = collision.gameObject;
-            PlayerMovement playerScript = player.GetComponent<PlayerMovement>();
+            PlayerAttack playerScript = player.GetComponent<PlayerAttack>();
 
             Destroy(gameObject);
             playerScript.attackPower += boost;

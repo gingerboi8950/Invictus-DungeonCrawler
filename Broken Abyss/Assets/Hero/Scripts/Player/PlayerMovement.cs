@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float attackPower = 10f;
 
     private Vector2 movement;
     private Rigidbody2D rb;
@@ -15,11 +14,10 @@ public class PlayerMovement : MonoBehaviour
     private const string vertical = "Vertical";
     private const string lastHorizontal = "LastHorizontal";
     private const string lastVertical = "LastVertical";
-    private const string isAttacking = "isAttacking";
 
     private float attackTime = 0.3f;
     private float attackCounter = 0.3f;
-    private bool isAttacking2;
+    private bool isAttacking; // Check if attacking or not
 
     public Transform Aim;
     bool isWalking = false;
@@ -60,21 +58,21 @@ public class PlayerMovement : MonoBehaviour
             Aim.rotation = Quaternion.LookRotation(Vector3.forward, vector3);
         }
 
-        if(isAttacking2)
+        if(isAttacking)
         {
             attackCounter -= Time.deltaTime;
             if(attackCounter <= 0)
             {
                 animator.SetBool("isAttacking", false);
-                isAttacking2 = false;
+                isAttacking = false;
             }
         }
 
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
         {
             attackCounter = attackTime;
             animator.SetBool("isAttacking", true);
-            isAttacking2 = true;
+            isAttacking = true;
         }
     }
 }

@@ -5,10 +5,15 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     public GameObject Melee;
-    private bool isAttacking = false;
-    float attackDuration = 0.3f;
-    float attackTimer = 0f;
-    
+    public GameObject Melee2;
+    private bool isAttacking = false; // Check for light attack
+    private bool isAttacking2 = false; // Check for heavy attack
+    private float attackDuration = 0.1f; // Light attack
+    private float attackDuration2 = 0.3f; // Heavy attack
+    private float attackTimer = 0f;
+
+    public float attackPower = 10f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,18 +26,31 @@ public class PlayerAttack : MonoBehaviour
         CheckMeleeTimer();
 
 
-        if(Input.GetMouseButton(0))
+        if(Input.GetMouseButtonDown(0))
         {
             OnAttack();
         }
+        if(Input.GetMouseButtonDown(1))
+        {
+            OnAttack2();
+        }
     }
 
-    void OnAttack()
+    void OnAttack() // Light Attack
     {
         if(!isAttacking)
         {
             Melee.SetActive(true);
             isAttacking = true;
+        }
+    }
+
+    void OnAttack2() // Heavy Attack
+    {
+        if(!isAttacking2)
+        {
+            Melee2.SetActive(true);
+            isAttacking2 = true;
         }
     }
 
@@ -46,6 +64,17 @@ public class PlayerAttack : MonoBehaviour
                 attackTimer = 0;
                 isAttacking = false;
                 Melee.SetActive(false);
+            }
+        }
+
+        if(isAttacking2)
+        {
+            attackTimer += Time.deltaTime;
+            if(attackTimer >= attackDuration2)
+            {
+                attackTimer = 0;
+                isAttacking2 = false;
+                Melee2.SetActive(false);                    
             }
         }
     }
