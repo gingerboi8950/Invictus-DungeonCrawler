@@ -1,4 +1,0 @@
-repository "Main Menu@SeniorProject24@cloud"
-  path "/"
-    br "/main"
-    co "/main"
