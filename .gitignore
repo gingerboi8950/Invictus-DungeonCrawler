@@ -66,7 +66,12 @@ npm-debug.log*
 # Unity Cloud Build generated files
 sysinfo.txt
 
+# Ignore asset meta files
+*.meta
+
 # Ignore hidden meta files and additional files
 .*.swp
 .*.swo
+Broken Abyss/Logs/Packages-Update.log
+Broken Abyss/Logs/Packages-Update.log
 /Broken Abyss/Logs
