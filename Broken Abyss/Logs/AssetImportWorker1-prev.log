@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.44f1 (c3ae09b9f03c) revision 12824073'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16311 MB
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalEducation' Language: 'en' Physical Memory: 16278 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.44f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Joshua/Documents/GitHub/Invictus-DungeonCrawler/Broken Abyss
+C:/Users/rutho/OneDrive/Desktop/Josh_code/Invictus-DungeonCrawler/Broken Abyss
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53250
-Successfully changed project path to: C:/Users/Joshua/Documents/GitHub/Invictus-DungeonCrawler/Broken Abyss
-C:/Users/Joshua/Documents/GitHub/Invictus-DungeonCrawler/Broken Abyss
+50166
+Successfully changed project path to: C:/Users/rutho/OneDrive/Desktop/Josh_code/Invictus-DungeonCrawler/Broken Abyss
+C:/Users/rutho/OneDrive/Desktop/Josh_code/Invictus-DungeonCrawler/Broken Abyss
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,75 +49,175 @@ C:/Users/Joshua/Documents/GitHub/Invictus-DungeonCrawler/Broken Abyss
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28552]  Target information:
+Player connection [3924]  Target information:
 
-Player connection [28552]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3919051337 [EditorId] 3919051337 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-845ENMF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3924]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 505058595 [EditorId] 505058595 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S8DLHC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28552]  * "[IP] 10.0.0.53 [Port] 0 [Flags] 2 [Guid] 3919051337 [EditorId] 3919051337 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-845ENMF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3924]  * "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 505058595 [EditorId] 505058595 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S8DLHC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28552] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [28552] Host joined alternative multi-casting on [225.0.0.222:34997]...
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 18.54 ms, found 4 plugins.
+Player connection [3924] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3924] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 12.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Joshua/Documents/GitHub/Invictus-DungeonCrawler/Broken Abyss/Assets
+[Subsystems] Discovering subsystems at path C:/Users/rutho/OneDrive/Desktop/Josh_code/Invictus-DungeonCrawler/Broken Abyss/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
-    Vendor:   NVIDIA
-    VRAM:     8024 MB
-    Driver:   32.0.15.6109
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+    Renderer: AMD Radeon Pro 5500M (ID=0x7340)
+    Vendor:   ATI
+    VRAM:     4056 MB
+    Driver:   26.20.13003.5002
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013625 seconds.
-- Loaded All Assemblies, in  0.383 seconds
+Registered in 0.008985 seconds.
+- Loaded All Assemblies, in  0.434 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.271 seconds
-Domain Reload Profiling: 650ms
-	BeginReloadAssembly (111ms)
+- Finished resetting the current domain, in  0.323 seconds
+Domain Reload Profiling: 755ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
 	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (153ms)
-		LoadAssemblies (107ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (126ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (134ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (159ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (272ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (324ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (229ms)
+		SetupLoadedEditorAssemblies (268ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (8ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (160ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.827 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.789 seconds
+Domain Reload Profiling: 1613ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (528ms)
+		LoadAssemblies (414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (170ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (789ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (616ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (461ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 8.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.03 ms.
+Unloading 4432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (57.3 KB). Loaded Objects now: 4903.
+Memory consumption went from 157.0 MB to 157.0 MB.
+Total: 3.956500 ms (FindLiveObjects: 0.418300 ms CreateObjectMapping: 0.322300 ms MarkObjects: 3.107800 ms  DeleteObjects: 0.107400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 294.163219 seconds.
+  path: Assets/Hero
+  artifactKey: Guid(9eea0afdad9841e42864b5291124ac43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero using Guid(9eea0afdad9841e42864b5291124ac43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7f24a9e7f322b216717ac912c8db4165') in 0.002109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 80.064176 seconds.
+  path: Assets/Hero/Z - Inventory UI/BoxWhiteOutline.png
+  artifactKey: Guid(b035cb4caeecf4e4298d4cab4236c34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero/Z - Inventory UI/BoxWhiteOutline.png using Guid(b035cb4caeecf4e4298d4cab4236c34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0c2609a8e22bc6e153c849f22996293') in 0.142794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 194.028967 seconds.
+  path: Assets/Images/orc1_idle_body.png
+  artifactKey: Guid(2a0ab07defb97954ca6a2bfc7de5383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/orc1_idle_body.png using Guid(2a0ab07defb97954ca6a2bfc7de5383b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '99d9123dae6ae04d4fd9682a1918ba3a') in 0.030451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/team-logo-removebg-preview.png
+  artifactKey: Guid(fb115cabb436a4b8ebb632e8ceda03ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/team-logo-removebg-preview.png using Guid(fb115cabb436a4b8ebb632e8ceda03ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2d6115b378194c551bab53b123d3b60a') in 0.038812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
