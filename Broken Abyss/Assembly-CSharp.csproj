@@ -62,12 +62,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Shopkeeper\shopkeeperUI.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\MovingBackground.cs" />
-    <Compile Include="Assets\Scripts\Shopkeeper\TempHeroMovement.cs" />
-    <Compile Include="Assets\Scripts\Shopkeeper\ItemOptionHandler.cs" />
+    <Compile Include="Assets\Scripts\Shopkeeper\ShopKeeperTrigger.cs" />
     <Compile Include="Assets\Scripts\Map\RandomObstacles.cs" />
+    <Compile Include="Assets\Scripts\Shopkeeper\Test_Scripts\TempHeroMovement.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\HoverOver.cs" />
-    <Compile Include="Assets\Scripts\Shopkeeper\shopkeeper_TriggerTest.cs" />
+    <Compile Include="Assets\ShopKeeper_Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMPro.cginc" />
