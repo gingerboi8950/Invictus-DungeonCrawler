@@ -33242,6 +33242,8 @@ MonoBehaviour:
   panelBackground: {fileID: 1000129543}
   buyButton: {fileID: 768759176}
   sellButton: {fileID: 1506015418}
+  backButton: {fileID: 975446992}
+  exitButton: {fileID: 19904}
   hoverColor: {r: 0.15307939, g: 0.36956, b: 0.754717, a: 1}
 --- !u!1 &457473577
 GameObject:
@@ -70466,7 +70468,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 270, y: 44}
+  m_AnchoredPosition: {x: 173, y: 10}
   m_SizeDelta: {x: 391.3287, y: 463.7402}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1000129545

@@ -8,6 +8,8 @@ public class ShopkeeperUI : MonoBehaviour
     public GameObject panelBackground;   // Panel with shop item slots
     public Button buyButton;             // Reference to Buy button
     public Button sellButton;            // Reference to Sell button
+    public Button backButton;            // Reference to Back button in panelBackground
+    public Button exitButton;            // Reference to Exit button in panelBackground
 
     private Color defaultColor;
     public Color hoverColor = Color.yellow;  // Color to change to on hover
@@ -21,6 +23,8 @@ public class ShopkeeperUI : MonoBehaviour
         // Add listeners for button clicks
         buyButton.onClick.AddListener(BuyItemAction);
         sellButton.onClick.AddListener(SellItemAction);
+        backButton.onClick.AddListener(BackAction);  // Add Back button listener
+        exitButton.onClick.AddListener(ExitAction);  // Add Exit button listener
 
         // Store the original color of the buttons
         defaultColor = buyButton.GetComponent<Image>().color;
@@ -66,6 +70,21 @@ public class ShopkeeperUI : MonoBehaviour
         // Hide the panel as per your logic. For now, just hide MainOptionPanel
         MainOptionPanel.SetActive(false);
         Debug.Log("Sell Item selected.");
+    }
+
+    void BackAction()
+    {
+        // Hide the shop item panel and show the MainOptionPanel again
+        panelBackground.SetActive(false);
+        MainOptionPanel.SetActive(true);
+        Debug.Log("Back button clicked. Returning to Main Option Panel.");
+    }
+
+    void ExitAction()
+    {
+        // Hide the shop item panel
+        panelBackground.SetActive(false);
+        Debug.Log("Exit button clicked. Closing the shop inventory.");
     }
 
     // Method to add an EventTrigger to a button
