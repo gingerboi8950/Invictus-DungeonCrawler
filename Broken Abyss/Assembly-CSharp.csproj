@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Map\RandomObstacles.cs" />
     <Compile Include="Assets\Scripts\Shopkeeper\panelBackground\SlotHover.cs" />
     <Compile Include="Assets\Scripts\Shopkeeper\Test_Scripts\TempHeroMovement.cs" />
+    <Compile Include="Assets\Scripts\Shopkeeper\ItemMenu\SlotClickHandler.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\HoverOver.cs" />
     <Compile Include="Assets\ShopKeeper_Test.cs" />
@@ -78,7 +79,7 @@
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Scripts\Shopkeeper\Hexany&apos;s 1-bit UI Panels\INFO.txt" />
+    <None Include="Assets\Images\ShopKeeper\Items_Test\Hexany&apos;s 1-bit UI Panels\INFO.txt" />
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Fonts\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -89,8 +90,8 @@
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Fonts\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\Scripts\Shopkeeper\Hexany&apos;s 1-bit UI Panels\CHANGELOG.txt" />
-    <None Include="Assets\Scripts\Shopkeeper\Hexany&apos;s 1-bit UI Panels\LICENSE.txt" />
+    <None Include="Assets\Images\ShopKeeper\Items_Test\Hexany&apos;s 1-bit UI Panels\CHANGELOG.txt" />
+    <None Include="Assets\Images\ShopKeeper\Items_Test\Hexany&apos;s 1-bit UI Panels\LICENSE.txt" />
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Map Stuff\Free-Undead-Tileset-Top-Down-Pixel-Art\License.txt" />
@@ -98,7 +99,7 @@
     <None Include="Assets\Fonts\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\Scripts\Shopkeeper\Hexany&apos;s 1-bit UI Panels\COPYING.txt" />
+    <None Include="Assets\Images\ShopKeeper\Items_Test\Hexany&apos;s 1-bit UI Panels\COPYING.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
