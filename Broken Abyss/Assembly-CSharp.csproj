@@ -67,8 +67,10 @@
     <Compile Include="Assets\Scripts\Shopkeeper\panelBackground\SlotHover.cs" />
     <Compile Include="Assets\Scripts\Shopkeeper\Test_Scripts\TempHeroMovement.cs" />
     <Compile Include="Assets\Scripts\Shopkeeper\ItemMenu\SlotClickHandler.cs" />
+    <Compile Include="Assets\Scripts\Shopkeeper\HotbarTest\HotBar.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\HoverOver.cs" />
+    <Compile Include="Assets\Scripts\ItemScriptableObject.cs" />
     <Compile Include="Assets\ShopKeeper_Test.cs" />
   </ItemGroup>
   <ItemGroup>

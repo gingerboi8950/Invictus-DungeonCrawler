@@ -10,6 +10,8 @@ public class ShopkeeperUI : MonoBehaviour
     public Button sellButton;            // Reference to Sell button
     public Button backButton;            // Reference to Back button in panelBackground
     public Button exitButton;            // Reference to Exit button in panelBackground
+    public GameObject ItemMenu;
+    public Item selectedItem; // represent currently selected item
 
     private Color defaultColor;
     public Color hoverColor = Color.yellow;  // Color to change to on hover
@@ -19,6 +21,7 @@ public class ShopkeeperUI : MonoBehaviour
         // Ensure both panels start hidden
         MainOptionPanel.SetActive(false);
         panelBackground.SetActive(false);
+        ItemMenu.SetActive(false);
 
         // Add listeners for button clicks
         buyButton.onClick.AddListener(BuyItemAction);
@@ -63,6 +66,34 @@ public class ShopkeeperUI : MonoBehaviour
         MainOptionPanel.SetActive(false);
         panelBackground.SetActive(true);  // Show shop inventory
         Debug.Log("Buy Item selected. Showing item slots.");
+
+        // Find the player (TempHeroMovement) and the HotBar manager
+        TempHeroMovement player = FindObjectOfType<TempHeroMovement>(); // Find the player character
+
+        // Check if the player was found
+        if (player != null)
+        {
+            // Check if the player has enough gold to buy the selected item
+            if (selectedItem != null) // Ensure an item has been selected
+            {
+                if (player.BuyItem(selectedItem))  // Use player instance to handle the purchase
+                {
+                    Debug.Log("Item added to hotbar.");
+                }
+                else
+                {
+                    Debug.Log("Not enough gold to buy the item.");
+                }
+            }
+            else
+            {
+                Debug.Log("No item selected.");
+            }
+        }
+        else
+        {
+            Debug.Log("Player not found.");
+        }
     }
 
     void SellItemAction()
